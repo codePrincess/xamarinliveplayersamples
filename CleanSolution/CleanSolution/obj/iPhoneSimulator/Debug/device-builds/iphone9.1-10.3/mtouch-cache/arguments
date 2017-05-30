@@ -1,0 +1,36 @@
+# Version: 10.11.0.126 (master: 7571635e)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/lib/mtouch/mtouch.exe \
+	/Users/manurink/Repositories/CleanSolution/CleanSolution/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/mtouch-cache \
+	--sim \
+	/Users/manurink/Repositories/CleanSolution/CleanSolution/bin/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/CleanSolution.app \
+	--executable \
+	CleanSolution \
+	--debug \
+	--profiling \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.3 \
+	--targetver \
+	10.3 \
+	--aot-options=-O=-float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=x86_64 \
+	--symbollist \
+	/Users/manurink/Repositories/CleanSolution/CleanSolution/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/manurink/Repositories/CleanSolution/CleanSolution/bin/iPhoneSimulator/Debug/CleanSolution.exe \
